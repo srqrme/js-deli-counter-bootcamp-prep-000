@@ -15,8 +15,16 @@ function currentLine(deliLine) {
     return `The line is currently empty.`
   }
   var lineNow = []
+<<<<<<< HEAD
   for (let i = 0; i < deliLine.length; i++) {
       lineNow.push(`${i + 1}. ${deliLine[i]}`)
     }
   return `The line is currently: ${lineNow.join(', ')}`
+=======
+  for (let i = 0; i < 1; i++) {
+    if (deliLine.length = 1)
+      lineNow.push(`${i + 1}. ${deliLine[i]}`)
+      return `The line is currently: ${lineNow.join(',')}`
+    }
+>>>>>>> 5e5569ddb2a9e8eb72324105cd192411ed5c21b2
 }
